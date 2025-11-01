@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Schedule App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Prayer Schedule App</h1>
+
+        <!-- اختيار المدينة -->
+        <div class="city-selector">
+            <label for="city">Select your city:</label>
+            <select id="city">
+                <option value="">-- Choose City --</option>
+                <option value="cairo">Cairo</option>
+                <option value="alexandria">Alexandria</option>
+                <option value="riyadh">Riyadh</option>
+                <option value="dubai">Dubai</option>
+            </select>
+        </div>
+
+        <!-- عرض التاريخ -->
+        <div class="date-box">
+            <p id="current-date">📅 16 February, 2025</p>
+        </div>
+
+        <!-- المحتوى الرئيسي -->
+        <div id="content">
+            <div id="schedule">
+                <div class="prayer">
+                    <h2>Fajr</h2>
+                    <p id="fajar-time">05:00 AM</p>
+                </div>
+                <div class="prayer">
+                    <h2>Shrook</h2>
+                    <p id="shrook-time">06:15 AM</p>
+                </div>
+                <div class="prayer">
+                    <h2>Duher</h2>
+                    <p id="duher-time">12:30 PM</p>
+                </div>
+                <div class="prayer">
+                    <h2>Asr</h2>
+                    <p id="asr-time">03:45 PM</p>
+                </div>
+                <div class="prayer">
+                    <h2>Maghreb</h2>
+                    <p id="maghreb-time">06:30 PM</p>
+                </div>
+                <div class="prayer">
+                    <h2>Ishaa</h2>
+                    <p id="ishaa-time">08:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
