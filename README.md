@@ -38,16 +38,9 @@ Built with **HTML**, **CSS**, and **JavaScript (Axios)**.
 
 ## 🔗 Live Demo
 
-Try the app live here: [Prayer Schedule App](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/)
+Try the app live here: [Prayer Schedule App](https://shahdwalidd.github.io/prayer-times-app/)
 
-💡 Future Improvements
 
-- Add more cities worldwide  
-- Display next prayer countdown  
-- Support dark/light mode  
-- Add user location auto-detection  
-
----
 
 ## 👩‍💻 Author
 
